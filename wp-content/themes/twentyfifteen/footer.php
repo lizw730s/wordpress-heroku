@@ -12,23 +12,33 @@
 
 	</div><!-- .site-content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php
-				/**
-				 * Fires before the Twenty Fifteen footer text for footer customization.
-				 *
-				 * @since Twenty Fifteen 1.0
-				 */
-				do_action( 'twentyfifteen_credits' );
-			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
-		</div><!-- .site-info -->
-	</footer><!-- .site-footer -->
+<footer class="footer">
+     <div class="container">
+
+
+<ul class="nav navbar-nav">
+            <li><a href="/home/index">Home</a></li>
+            <li><a href="/jobs/last">All Jobs</a></li>
+            <li><a href="/p/service">Service</a></li>
+            <li><a href="/p/case">Case</a></li>
+            <li><a href="http://hellocareer-blog.herokuapp.com/">Blog</a></li>
+            <li><a href="/p/about">About Us</a></li>
+          </ul>
+
+<table class="table">
+  <tbody><tr>
+    <td>Tel: 021-6049-1675</td>
+    <td>Email: service@hellocareer.cn</td>
+    <td>Address: Room 126 Block A， No.492 Anhua Road, Shanghai</td>
+    <td>Wechat: Hellocareer</td>
+  </tr>
+</tbody></table>  
+
+      </div>
+      </footer>
 
 </div><!-- .site -->
 
-<?php wp_footer(); ?>
 
 </body>
 </html>
