@@ -22,11 +22,12 @@ get_header(); ?>
 				<?php twentyeleven_content_nav( 'nav-above' ); ?>
 
 				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
+				
+				<?php $i = 1; while (have_posts() && $i < 4) : the_post(); ?>
 
 					<?php get_template_part( 'content', get_post_format() ); ?>
 
-				<?php endwhile; ?>
+				<?php $i++; endwhile; ?>
 
 				<?php twentyeleven_content_nav( 'nav-below' ); ?>
 
