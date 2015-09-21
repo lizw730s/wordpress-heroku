@@ -49,7 +49,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 
-<link rel='stylesheet' href='http://www.hellocareer.cn/assets/application-16a17f2aa9da2c844ddacd8a20237e5e9eddcd6a38d9bdd9eb54342f2c41dba5.css'>
+<link rel='stylesheet' href='http://www.hellocareer.cn/assets/application-d827435a1e9e1e9cf517e01bb47183492213978eba1d0dd8faf1617d5150797a.css'>
 
 </head>
 
@@ -67,6 +67,7 @@
       <ul class="nav navbar-nav">
             <li><a href="http://www.hellocareer.cn/home/index">Home</a></li>
             <li><a href="http://www.hellocareer.cn/jobs/last">All Jobs</a></li>
+            <li><a href="http://www.hellocareer.cn/promotions/1">Events</a></li>
             <li><a href="http://www.hellocareer.cn/p/service">Service</a></li>
             <li><a href="http://www.hellocareer.cn/p/case">Case</a></li>
             <li><a href="http://www.hellocareer.cn/p/about">About Us</a></li>
